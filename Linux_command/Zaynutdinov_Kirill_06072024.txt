@@ -1,0 +1,16 @@
+371  cat > Pets
+372  cat > "Pack animals"
+373  cat Pets "Pack animals" > "All animals"
+374  cat "All animals"
+375  mv "All animals" "Human Friends"
+376  mkdir animals
+377  mv "Human Friends" ./animals/"Human Friends"
+378  ls -l animals/
+379  cat animals/"Human Friends"
+380  clear
+381  wget https://dev.mysql.com/get/mysql-apt-config_0.8.30-1_all.deb
+382  sudo dpkg -i mysql-apt-config_0.8.30-1_all.deb
+383  sudo apt update
+384  sudo apt install mysql-community-server
+385  sudo dpkg -r mysql-apt-config
+386  history 16 > Zaynutdinov_Kirill_06072024.txt
